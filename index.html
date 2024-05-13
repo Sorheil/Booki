@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <!-- link css -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
       rel="stylesheet"
-    />
+    >
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
+    >
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" >
 
     <!-- link favicon -->
 
@@ -22,7 +22,7 @@
       rel="shortcut icon"
       href="./images/logo/Booki.png"
       type="image/x-icon"
-    />
+    >
 
     <title>Booki</title>
   </head>
@@ -33,11 +33,11 @@
           src="./images/logo/Booki@3x.png"
           alt="logo du site Booki"
           class="nav-bar__logo"
-        />
+        >
       </a>
 
       <div class="nav-bar__links">
-        <a href="#accommodations__section" >Hébergements</a>
+        <a href="#accommodations__section">Hébergements</a>
         <a href="#activities">Activités</a>
       </div>
     </nav>
@@ -53,7 +53,7 @@
 
         <form class="search-area" action="#">
           <label for="city"><i class="bi bi-geo-alt-fill"></i></label>
-          <input type="text" id="city"  placeholder="Maseille ,France"/>
+          <input type="text" id="city" placeholder="Maseille ,France" >
           <button type="submit">Rechercher</button>
         </form>
 
@@ -102,11 +102,16 @@
           <div class="accommodation__container">
             <a href="#" class="accommodation">
               <img
-                class="accommodation__image"
-                src="./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                srcset="
+                  ./images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg 1x,
+                  ./images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg  2x,
+                  ./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg 1.5x,
+                  ./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg  0.5x
+                "
+                src="./images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                 alt="image about accommodation"
-              />
-
+                class="accommodation__image"
+              >
               <div class="accommodation_description">
                 <h2 class="accommodation__title">Hôtel du port</h2>
                 <h3 class="accommodation__tarif">
@@ -126,9 +131,15 @@
             <a href="#" class="accommodation">
               <img
                 class="accommodation__image"
-                src="./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                srcset="
+                  ./images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1x,
+                  ./images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg  2x,
+                  ./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1.5x,
+                  ./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg  0.5x
+                "
+                src="./images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                 alt="image about accommodation"
-              />
+              >
               <div class="accommodation_description">
                 <h2 class="accommodation__title">Hôtel Les mouettes</h2>
                 <h3 class="accommodation__tarif">
@@ -148,9 +159,15 @@
             <a href="#" class="accommodation">
               <img
                 class="accommodation__image"
-                src="./images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                srcset="
+                  ./images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg 1x,
+                  ./images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg  2x,
+                  ./images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg 1.5x,
+                  ./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg  0.5x
+                "
+                src="./images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                 alt="image about accommodation"
-              />
+              >
               <div class="accommodation_description">
                 <h2 class="accommodation__title">Hôtel les mouettes</h2>
                 <h3 class="accommodation__tarif">
@@ -170,9 +187,15 @@
             <a href="#" class="accommodation">
               <img
                 class="accommodation__image"
-                src="./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                srcset="
+                  ./images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg 1x,
+                  ./images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg  2x,
+                  ./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg 1.5x,
+                  ./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg  0.5x
+                "
+                src="./images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                 alt="image about accommodation"
-              />
+              >
               <div class="accommodation_description">
                 <h2 class="accommodation__title">Hôtel de la mer</h2>
                 <h3 class="accommodation__tarif">
@@ -192,9 +215,15 @@
             <a href="#" class="accommodation">
               <img
                 class="accommodation__image"
-                src="./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                srcset="
+                  ./images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 1x,
+                  ./images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg  2x,
+                  ./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 1.5x,
+                  ./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg  0.5x
+                "
+                src="/images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                 alt="image about accommodation"
-              />
+              >
               <div class="accommodation_description">
                 <h2 class="accommodation__title">Auberge Le panier</h2>
                 <h3 class="accommodation__tarif">
@@ -214,9 +243,15 @@
             <a href="#" class="accommodation">
               <img
                 class="accommodation__image"
-                src="./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                srcset="
+                  ./images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 1x,
+                  ./images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg  2x,
+                  ./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 1.5x,
+                  ./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg  0.5x
+                "
+                src="/images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                 alt="image about accommodation"
-              />
+              >
               <div class="accommodation_description">
                 <h2 class="accommodation__title">Hôtel chez Amina</h2>
                 <h3 class="accommodation__tarif">
@@ -246,9 +281,15 @@
             <a href="#" class="accommodation-popular">
               <img
                 class="accommodation-poupular__image"
-                src="./images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                srcset="
+                  ./images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 1x,
+                  ./images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg  2x,
+                  ./images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 1.5x,
+                  ./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg  0.5x
+                "
+                src="/images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                 alt="image about accommodation"
-              />
+              >
               <div class="accommodation-popular__description">
                 <h2 class="accommodation-popular__title">
                   Hôtel Le soleil du matin
@@ -270,9 +311,15 @@
             <a href="#" class="accommodation-popular">
               <img
                 class="accommodation-poupular__image"
-                src="./images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                srcset="
+                  ./images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg 1x,
+                  ./images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg  2x,
+                  ./images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg 1.5x,
+                  ./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg  0.5x
+                "
+                src="./images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg"
                 alt="image about accommodation"
-              />
+              >
               <div class="accommodation-popular__description">
                 <h2 class="accommodation-popular__title">
                   Au coeur de l'eau Chambres d'hotes
@@ -294,9 +341,15 @@
             <a href="#" class="accommodation-popular">
               <img
                 class="accommodation-poupular__image"
-                src="./images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                srcset="
+                  ./images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg 1x,
+                  ./images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg  2x,
+                  ./images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg 1.5x,
+                  ./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg  0.5x
+                "
+                src="./images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                 alt="image about accommodation"
-              />
+              >
               <div class="accommodation-popular__description">
                 <h2 class="accommodation-popular__title">
                   Hôtel Tout bleu et Blanc
@@ -326,49 +379,85 @@
         <div class="activity__container">
           <a href="#" class="activity">
             <img
-              src="./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+              srcset="
+                ./images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 1x,
+                ./images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg  2x,
+                ./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 1.5x,
+                ./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg  0.5x
+              "
+              src="./images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
               alt="image of an activity"
-            />
+            >
             <h2 class="activity__name">Vieux port</h2>
           </a>
 
           <a href="#" class="activity activity__reduce">
             <img
-              src="./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+              srcset="
+                ./images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg 1x,
+                ./images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg  2x,
+                ./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg 1.5x,
+                ./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg  0.5x
+              "
+              src="./images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
               alt="image of an activity"
-            />
+            >
             <h2 class="activity__name">Fort de pomègues</h2>
           </a>
 
           <a href="#" class="activity activity__reduce">
             <img
-              src="./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+              srcset="
+                ./images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 1x,
+                ./images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg  2x,
+                ./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg 1.5x,
+                ./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg  0.5x
+              "
+              src="./images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
               alt="image of an activity"
-            />
+            >
             <h2 class="activity__name">iles du Frioul</h2>
           </a>
 
           <a href="#" class="activity">
             <img
-              src="./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+              srcset="
+                ./images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 1x,
+                ./images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg  2x,
+                ./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 1.5x,
+                ./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg  0.5x
+              "
+              src="./images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
               alt="image of an activity"
-            />
+            >
             <h2 class="activity__name">Parcs National de Calanques</h2>
           </a>
 
           <a href="#" class="activity activity__reduce">
             <img
-              src="./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+              srcset="
+                ./images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg 1x,
+                ./images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg  2x,
+                ./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg 1.5x,
+                ./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg  0.5x
+              "
+              src="./images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg"
               alt="image of an activity"
-            />
+            >
             <h2 class="activity__name">Notre-Dame-de-la-Garde</h2>
           </a>
 
           <a href="#" class="activity activity__reduce">
             <img
-              src="./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+              srcset="
+                ./images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg 1x,
+                ./images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg  2x,
+                ./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg 1.5x,
+                ./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg  0.5x
+              "
+              src="./images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
               alt="image of an activity"
-            />
+            >
             <h2 class="activity__name">parc Longchamp</h2>
           </a>
         </div>
