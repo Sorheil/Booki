@@ -58,7 +58,7 @@ nav {
   font-size: 17px;
 }
 
-.overline {
+.nav-bar__links a:hover {
   border-top: 3px solid var(--primary-color);
   color: var(--primary-color);
 }
@@ -91,12 +91,18 @@ nav {
   border-bottom-left-radius: 14px;
 }
 .search-area input[type="text"] {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   padding: 10px;
   width: 45px;
   flex-grow: 1;
 }
+input::placeholder {
+  font-weight: 700;
+  color: black;
+  font-size: 20px;
+}
+
 .search-area,
 .search-area button {
   border-top-right-radius: 16px;
@@ -226,7 +232,9 @@ nav {
   border-radius: 20px;
   padding: 5px;
   background-color: white;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.accommodation:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .accommodation__image {
@@ -294,8 +302,10 @@ nav {
   background-color: white;
   padding: 5px;
   border-radius: 20px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   position: relative;
+}
+.accommodation-popular:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .accommodation-poupular__image {
@@ -352,8 +362,10 @@ nav {
   width: calc((100% - (30px * 4)) / 4);
   border-radius: 25px;
   border: 1.5px solid var(--tertiary-color);
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   height: 100%;
+}
+.activity:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .activity__reduce {
@@ -417,6 +429,9 @@ footer a {
   }
   .accommodations-popular {
     width: 100%;
+  }
+  .accommodation-popular {
+    padding: 5px;
   }
   .accommodations-popular__container {
     display: flex;
@@ -544,7 +559,7 @@ footer a {
 
   .activity img {
     width: 100%;
-    height: 60%;
+    height: calc(100% - 50px);
     object-fit: cover;
   }
 
@@ -562,6 +577,8 @@ footer a {
     font-size: 18px;
   }
 }
+
+/* style for phone */
 
 @media screen and (max-width: 768px) {
   main {
@@ -588,9 +605,10 @@ footer a {
     font-size: 17px;
   }
 
-  .overline {
-    border: none;
+  .nav-bar__links a:hover {
+    border-top:none;
     border-bottom: 3px solid var(--primary-color);
+    color: var(--primary-color);
   }
 
   /*Accommodation search style*/
@@ -665,6 +683,9 @@ footer a {
   }
   .accommodations-popular__container {
     row-gap: 15px;
+  }
+  .accommodation-popular {
+    padding: 5px;
   }
 
   /* activities section */
